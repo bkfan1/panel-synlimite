@@ -6,5 +6,5 @@ Panel admin de Synlimite
 - Se agregaron nuevas clases y estilos al archivo styles.css
 
 ## 1.0.2
-- Se acomodaron los tamaños de loas
-- Se agregaron nuevas clases
+- Se acomodaron los tamaños de las tarjetas
+- Se agregaron nuevas clases y estilos

@@ -172,26 +172,27 @@ select:focus{background-color: rgb(201, 201, 201);}
     grid-template-columns: repeat(3,minmax(100px, 1fr));
     grid-template-rows: repeat(3,minmax(100px, 1fr));
     place-items: center;
+    gap: 15px;
 }
-
 
 .home-section__card{
     width: 250px;
-    background-color: white;
-    border: 1px solid rgb(206, 206, 206);
-}
-
-.home-section__card:hover{
-    background-color: #f1f1f1;
-    border: 1px solid rgb(168, 168, 168);
-    transition: 150ms ease-in-out;
-    opacity: 90%;
+    height: 110px;
+    padding: 10px;
+    border: 1px solid rgb(138, 138, 138);
 }
 
 .home-section__card__icon-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: grey;
+    padding: 20px;
+}
+
+.home-section__card__title-container{
+    height: 100%;
+}
+.home-section__card-description{
+    font-size: 1.4ch;
+    text-align: left;
 }
 
 .footer{

@@ -182,6 +182,13 @@ select:focus{background-color: rgb(201, 201, 201);}
     border: 1px solid rgb(138, 138, 138);
 }
 
+.home-section__card:hover{
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(128, 128, 128);
+    opacity: 85%;
+    transition: 150ms ease-in-out all;
+}
+
 .home-section__card__icon-container{
     background-color: grey;
     padding: 20px;
